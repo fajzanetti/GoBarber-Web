@@ -7,7 +7,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import logo from '../../assets/logo.svg';
 
-const Signin: React.FC = () => (
+const SignIn: React.FC = () => (
   <Container>
     <Content>
       <img src={logo} alt="GoBarber" />
@@ -32,4 +32,4 @@ const Signin: React.FC = () => (
   </Container>
 );
 
-export default Signin;
+export default SignIn;
