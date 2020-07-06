@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import progress from '../../assets/in_progress.svg';
+
 const Dashboard: React.FC = () => (
   <Container>
-    <h1>Dashboard</h1>
+    <img src={progress} alt="GoBarber" />
   </Container>
 );
 
